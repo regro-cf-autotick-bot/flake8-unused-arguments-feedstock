@@ -1,5 +1,5 @@
 {% set name = "flake8-unused-arguments" %}
-{% set version = "0.0.12" %}
+{% set version = "0.0.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flake8-unused-arguments-{{ version }}.tar.gz
-  sha256: cb35d0f2df5c58c42a60ed2db07bbedb86e05aac7188d203880da27346036861
+  sha256: c5894d294424bf7915e44dff0917222c454151016f96edc55b9f847bf307f3f7
 
 build:
   noarch: python
